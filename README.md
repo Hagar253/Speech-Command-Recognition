@@ -8,7 +8,7 @@ The dataset used is the Google Speech Commands dataset from Kaggle, which contai
 ### Dataset link: https://www.kaggle.com/datasets/neehakurelli/google-speech-commands/code
 
 ## Preprocessing Steps:
-#### Data Loading: 
+#### - Data Loading: 
 The dataset is downloaded from Kaggle and moved to a directory in the Colab environment for easier access.
 #### MFCC Feature Extraction: 
 MFCCs, a common feature in audio processing, are extracted to capture the essential characteristics of the speech data. Each audio file is represented by 40 MFCCs, averaged across time to create a fixed-length feature vector.

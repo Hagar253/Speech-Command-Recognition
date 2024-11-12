@@ -18,13 +18,13 @@ This project uses the **Google Speech Commands** dataset from Kaggle, which cont
 
 ## Preprocessing
 1. **Data Loading**: The dataset is downloaded from Kaggle and moved to a directory in the Colab environment for easier access.
-3. **MFCC Feature Extraction**: MFCCs, a common feature in audio processing, are extracted to capture the essential characteristics of the speech data. Each audio file is represented by 40 MFCCs, averaged across time to create a fixed-length feature vector.
-4.**Data Augmentation**:
+2. **MFCC Feature Extraction**: MFCCs, a common feature in audio processing, are extracted to capture the essential characteristics of the speech data. Each audio file is represented by 40 MFCCs, averaged across time to create a fixed-length feature vector.
+3. **Data Augmentation**:
      - Time Stretching: Speeds up the audio to simulate variations in speech rate.
      - Adding Noise: Random noise is added to make the model more robust to background noise.
      - Dynamic Range Compression: Reduces the dynamic range, simulating variations in loudness.
-5. **Label Encoding**: The labels (digits 0-9) are converted into numerical format.
-6. **Data Scaling**: To improve model performance, features are scaled to zero mean and unit variance.
+4. **Label Encoding**: The labels (digits 0-9) are converted into numerical format.
+5. **Data Scaling**: To improve model performance, features are scaled to zero mean and unit variance.
 
 ## Instructions for Running the Code
 1. **Download the Dataset**: Ensure the dataset from Kaggle (google-speech-commands) is available.
@@ -34,7 +34,7 @@ This project uses the **Google Speech Commands** dataset from Kaggle, which cont
      - Extract and augment audio features,
      - Define, compile, and train the model,
      - Visualize training and validation results.
-     - 
+       
 ## Dependencies and installation instructions
 To get started, install the necessary dependencies:
 

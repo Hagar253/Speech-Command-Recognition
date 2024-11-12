@@ -1,4 +1,4 @@
-# Google Speech Commands Classification
+# Speech Command Recognition
 
 ## Table of Contents
 - [Project Objective](#project-objective)

@@ -8,7 +8,7 @@ The dataset used is the Google Speech Commands dataset from Kaggle, which contai
 ### Dataset link: https://www.kaggle.com/datasets/neehakurelli/google-speech-commands/code
 
 ## Preprocessing Steps:
-#### - Data Loading: 
+#### Data Loading: 
 The dataset is downloaded from Kaggle and moved to a directory in the Colab environment for easier access.
 #### MFCC Feature Extraction: 
 MFCCs, a common feature in audio processing, are extracted to capture the essential characteristics of the speech data. Each audio file is represented by 40 MFCCs, averaged across time to create a fixed-length feature vector.
@@ -36,3 +36,10 @@ Run the Code Cells Sequentially: Follow the cell sequence to:
 - Extract and augment audio features,
 - Define, compile, and train the model,
 - Visualize training and validation results.
+
+## Dependencies and Installation Instructions
+- This project requires several Python libraries. Install them using the following commands:
+pip install numpy pandas librosa sklearn tensorflow matplotlib
+
+
+
